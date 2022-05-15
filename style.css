@@ -280,9 +280,6 @@ h2 {
 }
 
 @media (max-width:767px) {
-    section {
-        position: relative;
-    }
 
     header {
         justify-content: space-around;
@@ -308,7 +305,7 @@ h2 {
     }
 
     .secondry {
-        min-height: 155vh;
+        min-height: 165vh;
     }
 
     .secondry div {
