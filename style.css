@@ -299,8 +299,12 @@ h2 {
         margin-bottom: -5px;
     }
 
+    .contact .c2 h3 {
+        margin-left: -60PX;
+    }
+
     .contact .c2 div {
-        margin-left: 150px;
+        margin-left: 204px;
         margin-bottom: 20px;
     }
 
