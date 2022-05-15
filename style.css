@@ -314,14 +314,14 @@ h2 {
     }
 
     .secondry div:nth-of-type(2) {
-        top: 420px;
+        top: 1140px;
     }
 
     .secondry div:first-of-type {
-        top: 60px;
+        top: 770px;
     }
 
     .secondry div:last-of-type {
-        top: 780px;
+        top: 1500px;
     }
 }
