@@ -102,6 +102,7 @@ section {
     padding: 10px;
     margin-left: -3px;
     margin-bottom: 15px;
+    text-align: center;
     transition: 0.7s ease;
 }
 
@@ -276,4 +277,54 @@ h2 {
 
 .card img {
     margin-top: 31px;
+}
+
+@media (max-width:767px) {
+    section {
+        position: relative;
+    }
+
+    header {
+        justify-content: space-around;
+    }
+
+    .project .info {
+        margin-left: 50px;
+
+    }
+
+    .dmain {
+        margin-left: 0px;
+    }
+
+    .dmain h2 {
+        margin-left: 0px;
+        margin-bottom: -5px;
+    }
+
+    .contact .c2 div {
+        margin-left: 150px;
+        margin-bottom: 20px;
+    }
+
+    .secondry {
+        min-height: 140vh;
+    }
+
+    .secondry div {
+        position: absolute;
+        left: -10px;
+    }
+
+    .secondry div:nth-of-type(2) {
+        top: 420px;
+    }
+
+    .secondry div:first-of-type {
+        top: 60px;
+    }
+
+    .secondry div:last-of-type {
+        top: 780px;
+    }
 }
